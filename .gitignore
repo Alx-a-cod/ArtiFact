@@ -1,16 +1,42 @@
-# Compiled class file
+# Android Studio & IntelliJ
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# Build outputs
+build/
+*/build/
+.cxx/
+.externalNativeBuild/
+.kotlin/
+
+# Firebase & Google Services
+google-services.json
+firebase-debug.log
+
+# ML Kit / TensorFlow Lite
+*.tflite
+*.pb
+*.lite
+*.mlmodel
+
+# Jetpack Compose previews
+*.preview.cache
+
+# Coil image cache (if used locally)
+coil_cache/
+
+# Room database (local dev artifacts)
+*.db
+*.db-journal
+
+# Compiled files
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+*.dex
+*.apk
+*.ap_
+*.so
 *.jar
 *.war
 *.nar
@@ -19,9 +45,21 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Logs & crash reports
+*.log
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+# BlueJ & J2ME
+*.ctxt
+.mtj.tmp/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+captures/
+*.swp
+*.tmp
+*.orig
